@@ -1,1 +1,264 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!--AOS Links-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!--Animate Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Influence Dice Reference</title>
+  </head>
+  <body class="bg-dark">
+
+    <div class="header text-light p-5">
+      <h1>Influence Dice Reference</h1>
+    </div>
+
+      <div class="card shadow bg-warning m-1 border border-0">
+        <div class="card-body">
+          <h4 class="card-title">Resolve Dice</h4>
+          <h6 class="card-text">The Hope of the Players</h6>
+          <p>Events that would award Resolve Dice include, but are not limited to:</p>
+          <ul>
+            <li>Accurate represerntation of a PC's bonds, flaws and/or ideals in difficult circumstances.</li>
+            <li>Acts of self-sacrifice</li>
+            <li>Acts of kindness or charity</li>
+            <li>A display of the party as a light in the darkness of Etharis</li>
+          </ul>
+          <div id="accordion">
+
+          <div class="card border-0 m-1">
+            <div class="card-header">
+              <a class="card-link text-dark" data-toggle="collapse" href="#resolveOne">
+                <b><i>Hasty Recovery:</i></b> 1 Resovle Die
+              </a>
+            </div>
+            <div id="resolveOne" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                At a short or long rest, a player may expend one resolve die to remove a condition or one level of exhaustion. If the player need to make a saving throw during that rest, such as for a disease or poison, they may roll the Resolve Die and add the result to their saving throw.
+              </div>
+            </div>
+          </div>
+          <div class="card border-0 m-1">
+            <div class="card-header">
+              <a class="card-link text-dark" data-toggle="collapse" href="#resolveTwo">
+                <b><i>Inner Strength:</i></b> 1 or more Resolve Dice
+              </a>
+            </div>
+            <div id="resolveTwo" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                A player may spend a Resolve Dice inplace of any Hit Dice to recover hit points during a short rest or to activate any ability that requires spending Hit Dice.
+              </div>
+            </div>
+          </div>
+          <div class="card border-0 m-1">
+            <div class="card-header">
+              <a class="card-link text-dark" data-toggle="collapse" href="#resolveThree">
+                <b><i>Final Push:</i></b> 2 Resolve Dice
+              </a>
+            </div>
+            <div id="resolveThree" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                Whenever a player fails a death save, they may spend two Resolve Dice to reroll that save.
+              </div>
+            </div>
+          </div>
+          <div class="card border-0 m-1">
+            <div class="card-header">
+              <a class="card-link text-dark" data-toggle="collapse" href="#resolveFour">
+                <b><i>I've got Just the Thing:</i></b> 1 or more Resolve Dice
+              </a>
+            </div>
+            <div id="resolveFour" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                A player may spend any number of Resolve Dice and roll them in order to immediately gain a single item with value equal to or less than twice the rolled total in gold pieces.
+              </div>
+            </div>
+          </div>
+          <div class="card border-0 m-1">
+            <div class="card-header">
+              <a class="card-link text-dark" data-toggle="collapse" href="#resolveFive">
+                <b><i>Blaze of Glory:</i></b> 6 Resolve Dice
+              </a>
+            </div>
+            <div id="resolveFive" class="collapse" data-parent="#accordion">
+              <div class="card-body">
+                The party may spend all six Resolve Dice to grant themselves superhuman strength and resilience for a single round. During that round all party members have advantage on all rolls, resistance to all damage, and any damage they deal is doubled.
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="card shadow bg-danger m-1 border border-0">
+      <div class="card-body">
+        <h4 class="card-title">Beast Dice</h4>
+        <h6 class="card-text">The Bane of Existence</h6>
+        <p>Events that would generate Beat Dice include but are in no way limited to:</p>
+        <ul>
+          <li>Actions that darken the tone of the game</li>
+          <li>Murder of innocents</li>
+          <li>Acts of selfishness</li>
+          <li>Encountering a particularly strong, evil or frightening creature.</li>
+          <li>Witnessing something extremely horrifying or disturbing</li>
+        </ul>
+        <div id="accordion">
+
+        <div class="card border-0 m-1">
+          <div class="card-header bg-dark">
+            <a class="card-link text-light" data-toggle="collapse" href="#beastOne">
+              <b><i>Bitter Disposition:</i></b> 1 Beast Die
+            </a>
+          </div>
+          <div id="beastOne" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              The GM may spend one Beast Die to decrease the starting disposition of an NPC from Friendly to Indifferent, or from Indifferent to Hostile.
+            </div>
+          </div>
+        </div>
+        <div class="card border-0 m-1">
+          <div class="card-header bg-dark">
+            <a class="card-link text-light" data-toggle="collapse" href="#beastTwo">
+              <b><i>Death Rattle:</i></b> 1 Beast Die
+            </a>
+          </div>
+          <div id="beastTwo" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              when a player is reduced to 0 hit points, the GM may spend one Beast Die and roll it. On a 5 or a 6, that player immediately fails a death save.
+            </div>
+          </div>
+        </div>
+        <div class="card border-0 m-1">
+          <div class="card-header bg-dark">
+            <a class="card-link text-light" data-toggle="collapse" href="#beastThree">
+              <b><i>Outnumbered:</i></b> 1 or more Beast Dice
+            </a>
+          </div>
+          <div id="beastThree" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              At the start of an encounter, the GM may spend any number of BEst Dice to increase the number of creatures facing the party. For each die spent, the GM may add an additional creature with CR no greater than half the party's average level rounded down.
+            </div>
+          </div>
+        </div>
+        <div class="card border-0 m-1">
+          <div class="card-header bg-dark">
+            <a class="card-link text-light" data-toggle="collapse" href="#beastFour">
+              <b><i>Affliction:</i></b> 4 Beast Dice
+            </a>
+          </div>
+          <div id="beastFour" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              The forces of darkness cause a serious ailment to strike a party member. The GM chooses a Curse or Transformation that afflicts a character of their choice.
+            </div>
+          </div>
+        </div>
+        <div class="card border-0 m-1">
+          <div class="card-header bg-dark">
+            <a class="card-link text-light" data-toggle="collapse" href="#beastFive">
+              <b><i>The Beast:</i></b> 6 Beast Dice
+            </a>
+          </div>
+          <div id="beastFive" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+            The Beast manifests near the player's location. The effects of the Beast's presence are felt throughout the region and vary based on the closest region of the empire: fleshy abominations in Abendland, vicious puppets in Rauland, corrupted beasts and plants in Nordenland, and armor-fused horrors in Unterland. This option my be used to represent some other major threat based on locations outside the empire, such as an outbreak of coldfire in the Valikan Clans. These events cause serious damage to the local populace and represent a major continuing threat to the party.
+            </div>
+          </div>
+        </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="card shadow bg-info m-1 border border-0">
+      <div class="card-body">
+        <h4 class="card-title">Neutral Abilities</h4>
+        <h6 class="card-text">The Tug of War that is Fate</h6>
+        <p>Players and GM alike can pull from both dice pools to use these abilities:</p>
+        <div id="accordion">
+
+        <div class="card border-0 m-1">
+          <div class="card-header bg-primary">
+            <a class="card-link text-light" data-toggle="collapse" href="#neutralOne">
+              <b><i>Minor Fate:</i></b> 1 Influence Die
+            </a>
+          </div>
+          <div id="neutralOne" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              Roll one die and add the total to a single attack roll, ability check, or saving throw.
+            </div>
+          </div>
+        </div>
+        <div class="card border-0 m-1">
+          <div class="card-header bg-primary">
+            <a class="card-link text-light" data-toggle="collapse" href="#neutralTwo">
+              <b><i>Bolster:</i></b> 2 Influence Die
+            </a>
+          </div>
+          <div id="neutralTwo" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              Roll two dice and increase the maximum hit points of a creature by the total for eight hours.
+            </div>
+          </div>
+        </div>
+        <div class="card border-0 m-1">
+          <div class="card-header bg-primary">
+            <a class="card-link text-light" data-toggle="collapse" href="#neutralThree">
+              <b><i>Brutal Strike:</i></b> 2 Influence Dice
+            </a>
+          </div>
+          <div id="neutralThree" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              Whenever a creature is hit by an attack rll, the attacker may spend two dice and inflict an additional condition on the target for one round. This condition may be bleeding, dazed, prone or stunned.
+            </div>
+          </div>
+        </div>
+        <div class="card border-0 m-1">
+          <div class="card-header bg-primary">
+            <a class="card-link text-light" data-toggle="collapse" href="#neutralFour">
+              <b><i>Magical Flux:</i></b> 1 or more Influence Dice
+            </a>
+          </div>
+          <div id="neutralFour" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              A creature may spend dice to mimic the effects of a spell. The level of the spell may be no greater than the creature's proficiency bonus, and the creature must spend dice equal to one plus the level of the spell to be invoked. Cnatrips count as 1st-level spells for the purposes of this ability.
+            </div>
+          </div>
+        </div>
+        <div class="card border-0 m-1">
+          <div class="card-header bg-primary">
+            <a class="card-link text-light" data-toggle="collapse" href="#neutralFive">
+              <b><i>Stroke of Luck:</i></b> 2 Influence Dice
+            </a>
+          </div>
+          <div id="neutralFive" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+            By spending two dice, the GM or Player may cause a minor alteration to the environment, such as adding a small item or feature, moving an existing object five feet, or slightly altering weather conditions or lighting. Examples would be a dropped weapon rolling out of reach or suggesting that phosphorescent fungi might bring a cave's lighting up to dim light rather than total darkness.
+            </div>
+          </div>
+        </div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
